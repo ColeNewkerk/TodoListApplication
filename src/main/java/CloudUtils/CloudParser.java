@@ -25,6 +25,7 @@ public class CloudParser {
             list.add(rawToDo);
         }
         catch(java.io.IOException e){
+            System.out.println("IOException");
 
         }
         return list;
